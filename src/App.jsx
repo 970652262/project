@@ -9,6 +9,7 @@ const AI_QUERY = gql`
   }
 `;
 
+
 function App() {
   const [prompt, setPrompt] = useState('');
   const [messages, setMessages] = useState([]);
